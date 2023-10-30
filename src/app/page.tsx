@@ -1,12 +1,11 @@
-import Image from 'next/image'
-import Hero from '@/components/Hero'
-import Inputs from '@/components/Inputs'
+import Hero from "@/components/Hero";
+import Inputs from "@/components/Inputs";
 
 export default function Home() {
   return (
-    <div>
+    <div className="max-w-[1440px] mx-auto">
       <Hero />
-      <Inputs />
+      {/* <Inputs /> */}
     </div>
-  )
+  );
 }
